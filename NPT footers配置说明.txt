@@ -1,0 +1,8 @@
+1、下载Cmake，版本在3.1以上。(根据D:\PycharmProjects\Endscope_OCT_Code\ats-footers-release\atsfooters\CMakeList.txt)
+
+2、在ats-footers-release文件夹中打开powershell。
+
+3、根据D:\PycharmProjects\Endscope_OCT_Code\ats-footers-release\build.ps1中的命令，依次输入到Powershell命令行中。会得到build文件夹，内部包含编译好的atsfooters.dll文件。
+具体路径为D:\PycharmProjects\Endscope_OCT_Code\ats-footers-release\atsfooters\build\Release\atsfooters.dll
+
+4、将该atsfooter.dll文件复制到相应文件夹。在官方例子中，复制到python-example文件夹中。运行example-atsfooters.py即可。
